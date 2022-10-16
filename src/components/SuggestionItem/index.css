@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.list-container {
+  list-style-type: none;
+}
+.list-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.para {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #64748b;
+}
+@media screen and (min-width: 768px) {
+  .para {
+    font-size: 19px;
+  }
+}
+.arrow {
+  height: 20px;
+}
+@media screen and (min-width: 768px) {
+  .arrow {
+    height: 25px;
+  }
+}
